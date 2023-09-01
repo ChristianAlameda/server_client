@@ -1,0 +1,43 @@
+socket.accept() = Accept a connection. The socket must be bound to an address and 
+    # listening for connections. The return value is a pair (conn, address) 
+    # where conn is a new socket object usable to send and receive data on the 
+    # connection, and address is the address bound to the socket on the other end of the connection.
+
+_thread.start_new_thread(function, args[, kwargs]) =
+    #start a new thread and return the identifier
+
+socket.accept() = accepts any incoming connection
+
+socket.sendall(bytes[, flags]) = Send data to the socket. The socket must be connected 
+    #to a remote socket.
+
+socket.send(bytes[, flags]) = Sends data to the socket
+
+socket.recv(bufsize[, flags]) = Receive data from the socket
+
+socket.listen(ammountOfClients) = looking for clients
+
+socket.bind((server,port)) = combines the two so that it can be sent properly
+
+socket(AF_INET, SOCK_DGRAM, IPPROTO_UDPLITE) for IPv4
+
+socket(AF_INET6, SOCK_DGRAM, IPPROTO_UDPLITE) for IPv6.
+
+x = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+x.connect((server,port)) = conencts to the server
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
