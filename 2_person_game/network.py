@@ -6,7 +6,7 @@ class Network:
         self.client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         #in command prompt use command "ipconfig" then look for "IP64"
         #public ip for server
-        self.server = "10.0.0.132"#IPV4: 10.0.0.132, Classic: 127.0.0.1, IPV6: 73.151.178.122
+        self.server = "76.20.82.68"#IPV4: 10.0.0.132, Classic: 127.0.0.1, IPV6: 73.151.178.122
         self.port = 5555 #80, 443, 5555 is usually an open port
         self.addr = (self.server, self.port)
         self.p = self.connect()
